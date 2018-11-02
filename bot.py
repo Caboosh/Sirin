@@ -1,4 +1,4 @@
-import datetime
+import logging
 import sys
 import traceback
 import discord
@@ -6,9 +6,15 @@ from discord.ext import commands
 from botconfig import token
 from botconfig import prefix
 from botconfig import botdesc
-from botconfig import botversion
-from botconfig import since
 from botconfig import owner
+
+
+logger = logging.getLogger('discord')
+logger.setLevel(logging.DEBUG)
+handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w')
+handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
+logger.addHandler(handler)
+
 
 bot = commands.Bot(command_prefix=prefix, description=botdesc, dm_help=False, owner_id=owner)
 bot.remove_command("help")
@@ -39,5 +45,6 @@ async def on_ready():
     print('=======================')
     print('Bot Owner: {}' .format(bot.owner_id))
     await bot.change_presence(game=discord.Game(name='Moderating The Discord', type=0))
+
 
 bot.run(token, bot=True, reconnect=True)
