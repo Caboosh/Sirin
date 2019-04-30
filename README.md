@@ -1,6 +1,6 @@
 # CPU-Green-Heart
 
-![Vert~](https://safe.cameronmiller.me/FNrF6X82AOrJ7lS2cqzAXwlBKFgBLOlp.png)
+![Vert~](https://safe.cabooshyy.xyz/FNrF6X82AOrJ7lS2cqzAXwlBKFgBLOlp.png)
 
 The most Gamer of all Gamers, and will Game-end you! 
 Vert is a dedicated Private bot for my personal Discord Server, and handles moderation, roles, and tunes!
