@@ -1,6 +1,6 @@
 # Sirin
 
-![All hail the Queen!](https://safe.cabooshyy.xyz/FNrF6X82AOrJ7lS2cqzAXwlBKFgBLOlp.png)
+![All hail the Queen!](https://i.imgur.com/VCzgPaY.png)
 
 Ok yeah i got bored of Vert big deal IM SORRY OK.
 
